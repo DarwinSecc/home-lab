@@ -19,9 +19,9 @@ This repository documents the setup and configuration of my personal cybersecuri
   - 🖥️ Windows 10 – Victim machine
   - 🖥️ Ubuntu Server – General-purpose target
   - 🛡️ Security Onion – Monitoring and detection (planned)
+## 🛠️ Network Topology
 
----
-
-## 🗺️ Network Diagram
+```plaintext
+[ISP] --> [Mikrotik Router] --> [pfSense Firewall] --> [Proxmox VMs and Physical LAN]
 
 
